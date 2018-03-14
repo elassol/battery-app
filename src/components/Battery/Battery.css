@@ -1,0 +1,25 @@
+.wrapper-card {
+    width: 25%;
+    margin: 0;
+}
+
+.inner-wrapper {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.wrapper-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.Battery-card {
+    background: white;
+    padding: 10px;
+}
+
+.Battery-card ul {
+    margin-bottom: 0;
+    text-align: left;
+}
