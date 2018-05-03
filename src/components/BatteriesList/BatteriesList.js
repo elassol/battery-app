@@ -2,9 +2,8 @@ import React from 'react';
 import './BatteriesList.css';
 import Battery from '../Battery/Battery';
 
-import data from '../../data/data.json';
-console.log(data, "--------------------");
 
+import data from '../../data/data.json';
 
 class BatteriesList extends React.Component {
 

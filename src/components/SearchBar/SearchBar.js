@@ -18,13 +18,16 @@ class SearchBar extends React.Component {
     this.setState({searchTerm: event.target.value});
   }
 
-  
+
+
+
 
   render(){
     console.log(this.state.searchTerm, 'this should equal sony')
     return (
       <div className="SearchBar-fields">
         <input placeholder="Search batteries" onChange={this.handleTermChange} />
+          <a onClick={this.handleSearch}>Let's Go</a>
       </div>
     )
   }

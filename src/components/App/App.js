@@ -1,20 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import  BatteriesList from '../BatteriesList/BatteriesList';
 import SearchBar from '../SearchBar/SearchBar';
 
 
 
-class App extends Component {
 
-  state: { batterylist: '' }
+class App extends React.Component {
+  constructor(props) {
+      super(props);
 
-  handleSearch = (listTerm) => {
-    this.setState({batterylist: listTerm});
+      this.state = {
+        batterylist: []
+      };
+
   }
 
-
+  onSearchTerm = event => {
+    this.setState({batterylist: event.target.value});
+  }
 
 
   render() {

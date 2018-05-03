@@ -4,7 +4,7 @@
       "brand": "Sony",
       "name" : "VTC5A",
       "size": "18650",
-      "capacity" : 1900,
+      "mah" : 1900,
       "cdr": 25,
       "img": "http://lassodesigns.com/batteryapp/sony_vtc5_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg"
     },{
@@ -12,7 +12,7 @@
       "brand": "Aspire",
       "name" : "ICR",
       "size": "18650",
-      "capacity" : 1900,
+      "mah" : 1900,
       "cdr": 20,
       "img": "http://lassodesigns.com/batteryapp/aspire-icr-18650-battery.jpg"
     },{
@@ -20,7 +20,7 @@
       "brand": "LG",
       "name" : "hg2",
       "size": "18650",
-      "capacity" : 1900,
+      "mah" : 1900,
       "cdr": 25,
       "img": "http://lassodesigns.com/batteryapp/lg-hg-2-18650-vape-battery---vape-superstore.jpg"
     },{
@@ -28,7 +28,7 @@
       "brand": "Samsung",
       "name" : "VTC5A",
       "size": "18650",
-      "capacity" : 1900,
+      "mah" : 1900,
       "cdr": 25,
       "img": "http://lassodesigns.com/batteryapp/samsung_30q_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg"
     }

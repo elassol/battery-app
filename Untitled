@@ -1,0 +1,315 @@
+
+<link rel="stylesheet" href="//cdn.notonthehighstreet.com/campaigns/styles/homepage-2017-20-March-2018.css">
+
+
+<div class="homepage-2017">
+	<section class="hero_module clearfix">
+	<div class="hero_banner_wrapper">
+		<div id="youtube-container" class="inner__wrapper">
+			<div class="copy_wrapper">
+				<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/ttl-week-50-120march-compressor.png" class="ttl__hero--image"><a id="mid_banner" href="/birthday-gifts" class="cta"> thoughtful ideas they’ll love »</a>
+			</div>
+		</div>
+		<div id="close-btn">
+		</div>
+		<div id="videowrapper">
+
+		</div>
+	</div>
+	</section>
+
+	<section class="skinny_banner_module module clearfix">
+	<div class="banner__wrapper">
+		<div class="banner__link">
+			<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/group-11@3x.jpg?v1" alt="Notonthehighstreet.com - feefo banner" class="only_desktop">
+			<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/group-12@3x.jpg?v1" alt="Notonthehighstreet.com - feefo banner" class="only_mobie">
+		</div>
+	</div>
+	</section>
+
+	<section id="curated_collections" class="categories_module_edits module clearfix">
+	<div class="cat__header clearfix">
+		<h2 class="cat__ttl-section">CURATED COLLECTIONS</h2>
+		<p class="cat__subheading-section">
+			Carefully curated, just for you
+		</p>
+	</div>
+	<div class="slick-carousel__wrapper">
+		<div class="slick-carousel slick-edits">
+
+					<a href="/easter" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_speckled-egg-truffles.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">easter fun</h3>
+					</div>
+					</a>
+
+
+
+					<a href="/whats-new/new-top-picks" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_personalised-wedding-wooden-framed-photo-print-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">our top new picks</h3>
+					</div>
+					</a>
+					<a href="/themes/mystical-jewellery" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_18k-gold-vermeil-indian-tanka-coin-pendant-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">mystical jewellery </h3>
+					</div>
+					</a>
+					<a href="/themes/hothouse-wedding-trend" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_tropical-leaves-wedding-stationery-set-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">the 'hothouse' wedding collection</h3>
+					</div>
+					</a>
+					<a href="/themes/just-because-gifts" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_shine-on-wild-fig-and-grape-candle-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">'just because' gifts</h3>
+					</div>
+					</a>
+					<a href="/themes/feel-good-styling" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_live-laugh-love-tulip-embroidered-denim-jacket-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">feel-good styling</h3>
+					</div>
+					</a>
+					<a href="/themes/declutter-your-home" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_brass-clothes-rack-with-shelf-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">declutter your home</h3>
+					</div>
+					</a>
+
+		</div>
+	</div>
+	</section>
+
+	<section class="banner_module module clearfix">
+<div class="banner__wrapper">
+	<a id="btn-giftmatcher" href="/pages/gift-matcher/" title="Notonthehighstreet.com - Gift matcher" class="banner__link"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/desk-orange-CTA-compressor.jpg" alt="Notonthehighstreet.com - Gift matcher" class="only_desktop"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/mob-orange-CTA-compressor.jpg" alt="Notonthehighstreet.com - Gift matcher" class="only_mobie"></a>
+</div>
+</section>
+
+	<section id="fresh_inspiration" class="categories_module module module-divider clearfix">
+	<div class="cat__header clearfix">
+		<h2 class="cat__ttl-section">FRESH INSPIRATION</h2>
+		<a href="https://www.notonthehighstreet.com/d/gifts" class="view_all_link">View innovative gift ideas for all »</a>
+	</div>
+	<div class="slick-carousel__wrapper">
+		<div class="slick-carousel slick-edits">
+					<a href="/gifts/lust-list/lust-list-for-him" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_personalised-silver-handwriting-signature-bangle-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">thoughtful ideas for him</h3>
+					</div>
+					</a><a href="/christening-department/gifts-for-christenings" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_personalised-toy-bundle-2-wooden-toys-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">original christening keepsakes</h3>
+					</div>
+					</a><a href="/gifts/lust-list/lust-list-for-her" class="cat__link">
+					<div class="cat__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_personalised-name-straw-basket-beach-bag-compressor.jpg">
+					</div>
+					<div class="cat__copy_wrapper">
+						<h3 class="cat__ttl">fresh gifts for her</h3>
+					</div>
+					</a>
+		</div>
+	</div>
+	</section>
+
+	<section id="productsCarousel" class="products_module module module-divider clearfix">
+	<div class="cat__header clearfix">
+		<h2 class="cat__ttl-section">WHAT'S POPULAR THIS WEEK? </h2>
+		<p class="cat__subheading-section">
+			See what people are loving right now
+		</p>
+	</div>
+	<div class="slick-carousel__wrapper">
+		<div class="slick-carousel slick-grid">
+
+					<a href="/atlasandi/product/set-of-six-personalised-map-coasters" data-product-code="769761" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/preview_set-of-six-personalised-map-coasters-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Personalised Map Coasters</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/minnikin/product/magnolia-garden-plant-in-gift-box" data-product-code="775640" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_magnolia-house-plant-gift-box-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Magnolia Garden Plant In Gift Box</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/littleellajames/product/crochet-dino-pull-along-toy" data-product-code="768439" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_crochet-dino-pull-along-toy-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Crochet Dino Pull Along Toy</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/sallylanejewellery/product/ladder-of-life-earrings" data-product-code="781366" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_ladder-of-life-earrings-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Ladder Of Life Earrings</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/francescaiannaccone/product/abstract-art-print-balancing" data-product-code="782957" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_abstract-art-print-balancing-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Abstract Art Print 'Balancing'</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/badbrownie/product/easter-brownie-balls" data-product-code="777596" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/preview_easter-brownie-balls-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Easter Egg Brownies Box Of Six</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/lifeofriley/product/leather-cool-box" data-product-code="779694" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_leather-cool-box-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Leather Cool Box</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/apacheroselondon/product/orbit-spinning-necklace" data-product-code="782607" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_orbit-spinning-necklace-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Orbit Spinning Necklace</h3>
+					</div>
+					</a><a href="https://www.notonthehighstreet.com/theforestandco/product/golden-slim-rectangle-mirror-with-glass-shelf" data-product-code="781043" class="prod__link">
+					<div class="prod__img">
+						<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_golden-slim-rectangle-mirror-with-glass-shelf-compressor.jpg" alt="Notonthehighstreet.com">
+					</div>
+					<div class="prod__copy_wrapper">
+						<h3 class="prod__ttl">Golden Slim Rectangle Mirror With Glass Shelf</h3>
+					</div>
+					</a>
+
+		</div>
+	</div>
+	</section>
+
+	<section id="partners_section" class="partners_module module clearfix">
+	<div class="cat__header clearfix">
+		<h2 class="cat__ttl-section">MEET THE MAKERS</h2>
+		<p class="cat__subheading-section">
+			The talented artisans behind your gifts
+		</p>
+	</div>
+	<div class="wrapp_grid">
+		<div class="cat column_2">
+			<div class="partner__wrap_images">
+				<div class="partner__images-mugshot">
+					<a href="/rowenandwren" class="partner__collection_link partnerLink"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/original_2017-10-04-rowen-wren-ludlowgardenchair-ludl01mt-536-1-compressorv2.jpg" alt="Notonthehighstreet.com" class="partner__img"></a>
+				</div>
+				<div class="partner__images-products">
+					<a href="https://www.notonthehighstreet.com/rowenandwren/product/lidney-sussex-trug" class="partner__product_link partnerLink"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_lidney-sussex-trug-compressor.jpg" class="partner__img"></a><a href="https://www.notonthehighstreet.com/rowenandwren/product/byron-indoor-outdoor-bench" class="partner__product_link partnerLink"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_byron-indoor-outdoor-bench-compressor.jpg" class="partner__img"></a>
+				</div>
+			</div>
+			<h3 class="cat__ttl">rowen &amp; wren</h3>
+			<p class="cat__subheading">
+				 Truly distinctive homewares
+			</p>
+		</div>
+		<div class="cat column_2">
+			<div class="partner__wrap_images">
+				<div class="partner__images-mugshot">
+					<a href="/lucycoggle" class="partner__collection_link partnerLink"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/original_lc-2-compressor.jpg" alt="Notonthehighstreet.com" class="partner__img"></a>
+				</div>
+				<div class="partner__images-products">
+					<a href="https://www.notonthehighstreet.com/lucycoggle/product/personalised-baby-rabbit-footprint-kit" class="partner__product_link partnerLink"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_personalised-baby-rabbit-footprinting-kit-compressor.jpg" class="partner__img"></a><a href="https://www.notonthehighstreet.com/lucycoggle/product/personalised-family-of-bears-print" class="partner__product_link partnerLink"><img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/normal_personalised-family-of-bears-print-compressor.jpg" class="partner__img"></a>
+				</div>
+			</div>
+			<h3 class="cat__ttl">lucy coggle</h3>
+			<p class="cat__subheading">
+				 Intricate drawings and prints
+			</p>
+		</div>
+	</div>
+	</section>
+
+	<section class="curalate_module module module-divider clearfix">
+	<div class="cat__header clearfix">
+		<img src="//cdn.notonthehighstreet.com/campaigns/images/homepage-2017/loved-by-you-compressor.jpg" alt="image as a title" class="ttl__image">
+		<p class="cat__subheading-section">
+			Love something you found on our site? Share it on Instagram with <a href="https://www.notonthehighstreet.com/pages/lovedbyyou">#notonthehighstreet »</a>
+		</p>
+	</div>
+	<div class="wrapper_curalate">
+		<div id="curalate-fan-reel-wrapper">
+
+		</div>
+	</div>
+	</section>
+
+	<section class="footer_module module clearfix">
+	<h3 class="ttl__footer">THOUGHTFUL GIFTS, MADE FOR YOUR FAVOURITES</h3>
+	<div class="copy__footer">
+		<p>
+			When your mission is to find a gift for someone you love, ours is to make sure it’s the most thoughtful, heartfelt and original one going.
+		</p>
+		<p>
+			That’s why we’ve scoured the nation to bring together beautifully made designs from thousands of the UK’s best small creative businesses - from handcrafted creations to personalised gift ideas brought to life with your own words.
+		</p>
+		<p>
+		</p>
+		<p>
+			So go ahead and discover our curated collections of birthday gifts, wedding gifts, anniversary gifts, christening gifts, Mother’s Day gifts, Father’s Day gifts *deep breath*, housewarming, retirement and Christmas gifts - the list goes on. We’ve new ideas every week, along with our list of <a href="https://www.notonthehighstreet.com/popular_searches">popular searches </a>to help spark a few more ideas.
+		</p>
+		<p>
+			And because we believe thoughtful should be for every day, you’ll also find creative ways to say “I love you”, “I’m thinking of you” and “I’m treating you, just because”. Prepare to be inspired.
+		</p>
+	</div>
+	</section>
+</div>
+
+
+
+<script type="text/javascript" src="//d116tqlcqfmz3v.cloudfront.net/noths-2614/gallery.js"></script>
+<script type="text/javascript">
+    Curalate.FanReels.Gallery.init({ code: "lovedbyyou" });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+    require.config({
+        paths: {
+          'campaign': "//cdn.notonthehighstreet.com/campaigns/scripts/homepage-2017-20-March-2018-v3"
+        }
+    });
+
+    require(['campaign']);
+
+  });
+</script>
