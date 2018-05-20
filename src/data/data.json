@@ -2,11 +2,30 @@
   "batteries": [
     {
       "brand": "Sony",
-      "name" : "VTC5A",
+      "name" : "VTC4",
       "size": "18650",
       "mah" : 1900,
-      "cdr": 25,
-      "img": "http://lassodesigns.com/batteryapp/sony_vtc5_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg"
+      "CDR": 25,
+      "DCIR": 11.6,
+      "img": "http://lassodesigns.com/batteryapp/sony_vtc5_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg",
+      "performance": [
+        { "A": 10, "Wh":9.8 },
+        { "A": 20, "Wh": 8.5},
+        { "A": 30, "Wh": 6.6 }
+      ]
+    },{
+      "brand": "Samsung",
+      "name" : "30T",
+      "size": "21700",
+      "mah" : 3000,
+      "CDR": 35,
+      "DCIR": 11.6,
+      "img": "http://lassodesigns.com/batteryapp/sony_vtc5_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg",
+      "performance": [
+        { "A": 10, "Wh":10 },
+        { "A": 20, "Wh": 8.9},
+        { "A": 30, "Wh": 7.4}
+      ]
     },{
 
       "brand": "Aspire",
@@ -26,11 +45,56 @@
     },{
 
       "brand": "Samsung",
-      "name" : "VTC5A",
+      "name" : "30Q",
       "size": "18650",
-      "mah" : 1900,
-      "cdr": 25,
-      "img": "http://lassodesigns.com/batteryapp/samsung_30q_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg"
+      "mah" : 3000,
+      "CDR": 15,
+      "DCIR": 22.1,
+      "img": "http://lassodesigns.com/batteryapp/samsung_30q_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg",
+      "performance": [
+        { "A": 10, "Wh": 7.5 },
+        { "A": 15, "Wh": 15 }
+      ]
+    },{
+      "brand": "Vapcell",
+      "name" : "Purple",
+      "size": "18650",
+      "mah" : 3000,
+      "CDR": 20,
+      "DCIR": 18.5,
+      "img": "http://lassodesigns.com/batteryapp/sony_vtc5_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg",
+      "performance": [
+        { "A": 10, "Wh":7.4 },
+        { "A": 20, "Wh": 6.4}
+      ]
+    },{
+      "brand": "Sanyo",
+      "name" : "NCR2070C",
+      "size": "20700",
+      "mah" : 3500,
+      "CDR": 30,
+      "DCIR": 15.5,
+      "img": "http://lassodesigns.com/batteryapp/sony_vtc5_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg",
+      "performance": [
+        { "A": 10, "Wh":9.8 },
+        { "A": 20, "Wh": 8.5},
+        { "A": 30, "Wh": 6.6 }
+      ]
+    },{
+      "brand": "Vapcell",
+      "name" : "Purple",
+      "size": "21700",
+      "mah" : 3000,
+      "CDR": 35,
+      "DCIR": 11.5,
+      "img": "http://lassodesigns.com/batteryapp/sony_vtc5_18650_battery_-_accessories_-_coils_-_tanks_-_vape_superstore_uk.jpg",
+      "performance": [
+        { "A": 10, "Wh":10 },
+        { "A": 20, "Wh": 8.9},
+        { "A": 30, "Wh": 7.3 }
+      ]
     }
+
+
   ]
 }

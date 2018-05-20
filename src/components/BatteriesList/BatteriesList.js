@@ -3,31 +3,19 @@ import './BatteriesList.css';
 import Battery from '../Battery/Battery';
 
 
-import data from '../../data/data.json';
-
 class BatteriesList extends React.Component {
-
-    displayList(){
-
-    }
 
     render(){
         return (
             <div className="content-wrapper">
               {
-                data.batteries.map(batteryindex => {
-                  return (
-                    <Battery
-                      battery={batteryindex}
-                    />
-                  )
+                this.props.batterylist.map(battery => {
+                  return <Battery battery={battery} />
                 })
               }
             </div>
         );
     }
-
-
 }
 
 export default BatteriesList;
