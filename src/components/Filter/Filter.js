@@ -3,11 +3,17 @@ import './Filter.css';
 
 
 class Filter extends React.Component {
+
+    handleClickFilter = () => {
+        console.log("works");
+    }
+
+
     render(){
         return (
-            <div className="filter">
+            <button className="filter" onClick={(e) => this.handleClickFilter(this.props.filter, e)}>
                 {this.props.label}
-            </div>
+            </button>
         )
     }
 }

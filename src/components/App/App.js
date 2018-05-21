@@ -21,13 +21,18 @@ class App extends React.Component {
     this.setState({batterylist: event.target.value});
   }
 
-  handleFilter = onCLick => {
-    console.log("works");
-  }
+
 
   filterList = () => {
     
-
+    
+      this.state.batterylist.map(battery => {
+        if (battery.CDR > 20) {
+          this.setState({batterylist})
+        }
+        
+      })
+    
   }
 
 
@@ -39,7 +44,7 @@ class App extends React.Component {
           <SearchBar onSearchTerm={this.handleSearch}/>
         </header>
           <div className="filters">
-            <Filter onCLick={this.handleFilter} label="test"/>
+            <Filter  label="test"/>
           </div>
           <BatteriesList batterylist={this.state.batterylist}/>
       </div>
