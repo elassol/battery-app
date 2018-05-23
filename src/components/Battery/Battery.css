@@ -19,7 +19,23 @@
     padding: 10px;
 }
 
+h2, h3 {
+    text-align: left;
+    font-size: 18px;
+}
+
 .Battery-card ul {
     margin-bottom: 0;
     text-align: left;
+}
+
+.Battery-card p {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    margin: 0 0 5px;
+}
+
+.Battery-card span {
+    font-weight: bold;
 }

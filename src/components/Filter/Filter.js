@@ -4,14 +4,24 @@ import './Filter.css';
 
 class Filter extends React.Component {
 
-    handleClickFilter = () => {
-        console.log("works");
+    constructor(props) {
+        super(props);
+        this.state = {  selected: false };
     }
 
 
+    handleClickFilter = () => {
+     
+        this.setState({selected: !this.state.selected});
+        console.log("State filter ======", this.props);
+    }
+
+
+
     render(){
+        
         return (
-            <button className="filter" onClick={(e) => this.handleClickFilter(this.props.filter, e)}>
+            <button className={this.state.selected ? 'empty' : 'full'} onClick={(e) => this.props.filterBy()}>
                 {this.props.label}
             </button>
         )
