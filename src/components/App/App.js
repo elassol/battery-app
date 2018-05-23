@@ -23,28 +23,50 @@ class App extends React.Component {
 
 
 
-  filterList = () => {
+
+  filterList = (brand) => {
+      
+      console.log("works");
+
+      console.log(brand)
+      let filtered = this.state.batterylist.filter(battery => battery.brand === brand);
+      console.log(filtered);
+      
     
-    
-      this.state.batterylist.map(battery => {
-        if (battery.CDR > 20) {
-          this.setState({batterylist})
-        }
-        
-      })
-    
+      this.setState({batterylist: filtered});
+     
   }
 
+  filterBySize = (size) => {
+
+    let filtered = this.state.batterylist.filter(battery => battery.size === size);
+    this.setState({batterylist: filtered});
+    
+    
+}
 
   render() {
+    console.log(this.state.batterylist, "batttery");
     return (
       <div className="Wrapper">
         <header className="App-header">
           <h1 className="App-title">Welcome to React</h1>
           <SearchBar onSearchTerm={this.handleSearch}/>
         </header>
-          <div className="filters">
-            <Filter  label="test"/>
+          <div className="filters-wrapper">
+
+            <Filter 
+            
+              label = "18650"
+              filterBy ={() => this.filterBySize('18650')}
+            />
+
+            <Filter
+              filter="20"
+              label="Sony"
+              
+              filterBy={() => this.filterList("Sony")}
+            />
           </div>
           <BatteriesList batterylist={this.state.batterylist}/>
       </div>

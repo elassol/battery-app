@@ -32,7 +32,7 @@
       "name" : "ICR",
       "size": "18650",
       "mah" : 1900,
-      "cdr": 20,
+      "CDR": 20,
       "img": "http://lassodesigns.com/batteryapp/aspire-icr-18650-battery.jpg"
     },{
 
@@ -40,7 +40,7 @@
       "name" : "hg2",
       "size": "18650",
       "mah" : 1900,
-      "cdr": 25,
+      "CDR": 25,
       "img": "http://lassodesigns.com/batteryapp/lg-hg-2-18650-vape-battery---vape-superstore.jpg"
     },{
 
