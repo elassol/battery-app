@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import  BatteriesList from '../BatteriesList/BatteriesList';
 import SearchBar from '../SearchBar/SearchBar';
 import Filter from '../Filter/Filter';
@@ -48,28 +49,31 @@ class App extends React.Component {
   render() {
     console.log(this.state.batterylist, "batttery");
     return (
-      <div className="Wrapper">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-          <SearchBar onSearchTerm={this.handleSearch}/>
-        </header>
-          <div className="filters-wrapper">
+      <React.Fragment>
+        <CssBaseline />
+          <div className="Wrapper">
+            <header className="App-header">
+              <h1 className="App-title">Welcome to React</h1>
+              <SearchBar onSearchTerm={this.handleSearch}/>
+            </header>
+              <div className="filters-wrapper">
 
-            <Filter 
-            
-              label = "18650"
-              filterBy ={() => this.filterBySize('18650')}
-            />
+                <Filter 
+                
+                  label = "18650"
+                  filterBy ={() => this.filterBySize('18650')}
+                />
 
-            <Filter
-              filter="20"
-              label="Sony"
-              
-              filterBy={() => this.filterList("Sony")}
-            />
+                <Filter
+                  filter="20"
+                  label="Sony"
+                  
+                  filterBy={() => this.filterList("Sony")}
+                />
+              </div>
+              <BatteriesList batterylist={this.state.batterylist}/>
           </div>
-          <BatteriesList batterylist={this.state.batterylist}/>
-      </div>
+        </React.Fragment>
     );
   }
 }
