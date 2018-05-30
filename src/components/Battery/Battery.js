@@ -12,11 +12,10 @@ class Battery extends React.Component {
 
             <img src={this.props.battery.img} alt=""/>
 
-            <h2>{this.props.battery.brand + ' ' + this.props.battery.name}</h2>
-            <h3>Size: {this.props.battery.size}</h3>
+            <h2>{this.props.battery.brand + ' ' + this.props.battery.name + ' ' + this.props.battery.size}</h2>
         
             <p className="specs"><span>Capacity:</span> {this.props.battery.mah} mAh</p>
-            <p className="specs"><span>CDR:</span> {this.props.battery.cdr} A</p>
+            <p className="specs"><span>CDR:</span> {this.props.battery.CDR} A</p>
             <p className="specs"><span>Performance Specs:</span></p>
             <p className="specs"><span>DC IR:</span> {this.props.battery.DCIR} mOhms</p>
 

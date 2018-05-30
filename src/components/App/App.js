@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import  BatteriesList from '../BatteriesList/BatteriesList';
 import SearchBar from '../SearchBar/SearchBar';
 import Filter from '../Filter/Filter';
@@ -29,6 +30,7 @@ class App extends React.Component {
 
 
 
+
   filterList = () => {
 
 
@@ -39,25 +41,52 @@ class App extends React.Component {
 
       })
 
+
   }
 
+  filterBySize = (size) => {
+
+    let filtered = this.state.batterylist.filter(battery => battery.size === size);
+    this.setState({batterylist: filtered});
+    
+    
+}
 
   render() {
+    console.log(this.state.batterylist, "batttery");
     return (
-      <div className="Wrapper">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-          <SearchBar onSearchTerm={this.handleSearch}/>
-        </header>
-          <div className="filters">
-            <Filter  label="test"/>
+      <React.Fragment>
+        <CssBaseline />
+          <div className="Wrapper">
+            <header className="App-header">
+              <h1 className="App-title">Welcome to React</h1>
+              <SearchBar onSearchTerm={this.handleSearch}/>
+            </header>
+              <div className="filters-wrapper">
+
+                <Filter 
+                
+                  label = "18650"
+                  filterBy ={() => this.filterBySize('18650')}
+                />
+
+                <Filter
+                  filter="20"
+                  label="Sony"
+                  
+                  filterBy={() => this.filterList("Sony")}
+                />
+              </div>
+              <BatteriesList batterylist={this.state.batterylist}/>
           </div>
+
 
 
           <input onChange={(event) => this.props.updateSearch(event)}/>
           <BatteriesList batterylist={this.state.batterylist}/>
 
       </div>
+
     );
   }
 }
