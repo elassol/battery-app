@@ -5,6 +5,8 @@ import  BatteriesList from '../BatteriesList/BatteriesList';
 import SearchBar from '../SearchBar/SearchBar';
 import Filter from '../Filter/Filter';
 import data from '../../data/data.json';
+import {connect} from 'react-redux';
+import types from '../../redux/Types';
 
 
 
@@ -18,6 +20,10 @@ class App extends React.Component {
 
   }
 
+  componentDidMount = () => {
+    console.log(this.props, 'PORPSSSSSS');
+  }
+
   onSearchTerm = event => {
     this.setState({batterylist: event.target.value});
   }
@@ -25,17 +31,17 @@ class App extends React.Component {
 
 
 
-  filterList = (brand) => {
-      
-      console.log("works");
+  filterList = () => {
 
-      console.log(brand)
-      let filtered = this.state.batterylist.filter(battery => battery.brand === brand);
-      console.log(filtered);
-      
-    
-      this.setState({batterylist: filtered});
-     
+
+      this.state.batterylist.map(battery => {
+        if (battery.CDR > 20) {
+          // this.setState({batterylist: })
+        }
+
+      })
+
+
   }
 
   filterBySize = (size) => {
@@ -73,9 +79,30 @@ class App extends React.Component {
               </div>
               <BatteriesList batterylist={this.state.batterylist}/>
           </div>
-        </React.Fragment>
+
+
+
+          <input onChange={(event) => this.props.updateSearch(event)}/>
+          <BatteriesList batterylist={this.state.batterylist}/>
+
+      </div>
+
     );
   }
 }
 
-export default App;
+const mapStateToProps = (state) => ({
+  searchReducer: state.searchReducer
+})
+
+const mapDispatchToProps = (dispatch) => ({
+  updateSearch: (event) => {
+
+    dispatch({
+      type: types.UPDATE_SEARCH,
+      txt: event.target.value,
+    })
+  }
+})
+
+export default connect(mapStateToProps, mapDispatchToProps) (App);
