@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline';
+
 import  BatteriesList from '../BatteriesList/BatteriesList';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import SearchBar from '../SearchBar/SearchBar';
 import Filter from '../Filter/Filter';
+
 import data from '../../data/data.json';
 
 
@@ -11,40 +15,31 @@ import data from '../../data/data.json';
 class App extends React.Component {
   constructor(props) {
       super(props);
-
       this.state = {
         batterylist: data.batteries,
       };
-
   }
 
   onSearchTerm = event => {
     this.setState({batterylist: event.target.value});
   }
 
-
-
-
   filterList = (brand) => {
       
       console.log("works");
-
-      console.log(brand)
+      console.log(brand);
       let filtered = this.state.batterylist.filter(battery => battery.brand === brand);
       console.log(filtered);
       
-    
-      this.setState({batterylist: filtered});
-     
+      this.setState({batterylist: filtered});   
   }
 
   filterBySize = (size) => {
 
     let filtered = this.state.batterylist.filter(battery => battery.size === size);
     this.setState({batterylist: filtered});
-    
-    
-}
+ 
+  }
 
   render() {
     console.log(this.state.batterylist, "batttery");
@@ -52,11 +47,12 @@ class App extends React.Component {
       <React.Fragment>
         <CssBaseline />
           <div className="Wrapper">
+            <Header />
             <header className="App-header">
               <h1 className="App-title">Welcome to React</h1>
               <SearchBar onSearchTerm={this.handleSearch}/>
             </header>
-              <div className="filters-wrapper">
+            <div className="filters-wrapper">
 
                 <Filter 
                 
@@ -70,10 +66,11 @@ class App extends React.Component {
                   
                   filterBy={() => this.filterList("Sony")}
                 />
-              </div>
-              <BatteriesList batterylist={this.state.batterylist}/>
+            </div>
+            <BatteriesList batterylist={this.state.batterylist}/>
+            <Footer />
           </div>
-        </React.Fragment>
+      </React.Fragment>
     );
   }
 }

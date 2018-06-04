@@ -1,4 +1,7 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
+
+
 
 class SearchBar extends React.Component {
 
@@ -27,7 +30,9 @@ class SearchBar extends React.Component {
     return (
       <div className="SearchBar-fields">
         <input placeholder="Search batteries" onChange={this.handleTermChange} />
-          <a onClick={this.handleSearch}>Let's Go</a>
+        <Button color="primary" onClick={this.handleSearch}>
+          Let's Go
+        </Button>
       </div>
     )
   }
