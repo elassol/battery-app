@@ -9,6 +9,8 @@ import SearchBar from '../SearchBar/SearchBar';
 import Filter from '../Filter/Filter';
 
 import data from '../../data/data.json';
+import {connect} from 'react-redux';
+import types from '../../redux/Types';
 
 
 
@@ -20,25 +22,37 @@ class App extends React.Component {
       };
   }
 
+  componentDidMount = () => {
+    console.log(this.props, 'PORPSSSSSS');
+  }
+
   onSearchTerm = event => {
     this.setState({batterylist: event.target.value});
   }
 
-  filterList = (brand) => {
-      
-      console.log("works");
-      console.log(brand);
-      let filtered = this.state.batterylist.filter(battery => battery.brand === brand);
-      console.log(filtered);
-      
-      this.setState({batterylist: filtered});   
+
+
+
+
+  filterList = () => {
+
+
+      this.state.batterylist.map(battery => {
+        if (battery.CDR > 20) {
+          // this.setState({batterylist: })
+        }
+
+      })
+
+
+
   }
 
   filterBySize = (size) => {
 
     let filtered = this.state.batterylist.filter(battery => battery.size === size);
     this.setState({batterylist: filtered});
- 
+
   }
 
   render() {
@@ -54,8 +68,8 @@ class App extends React.Component {
             </header>
             <div className="filters-wrapper">
 
-                <Filter 
-                
+                <Filter
+
                   label = "18650"
                   filterBy ={() => this.filterBySize('18650')}
                 />
@@ -63,16 +77,41 @@ class App extends React.Component {
                 <Filter
                   filter="20"
                   label="Sony"
-                  
+
                   filterBy={() => this.filterList("Sony")}
                 />
             </div>
             <BatteriesList batterylist={this.state.batterylist}/>
             <Footer />
           </div>
+<<<<<<< HEAD
       </React.Fragment>
+=======
+
+
+
+          <input onChange={(event) => this.props.updateSearch(event)}/>
+          <BatteriesList batterylist={this.state.batterylist}/>
+
+      </div>
+
+>>>>>>> 71bea99c35620101c14ca1e205ebacf36898291c
     );
   }
 }
 
-export default App;
+const mapStateToProps = (state) => ({
+  searchReducer: state.searchReducer
+})
+
+const mapDispatchToProps = (dispatch) => ({
+  updateSearch: (event) => {
+
+    dispatch({
+      type: types.UPDATE_SEARCH,
+      txt: event.target.value,
+    })
+  }
+})
+
+export default connect(mapStateToProps, mapDispatchToProps) (App);
