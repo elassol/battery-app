@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-import 'typeface-roboto';
-=======
+
 import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import reducer from './redux/reducers';
 
->>>>>>> 71bea99c35620101c14ca1e205ebacf36898291c
 
 import App from './components/App/App';
 import './index.css';

@@ -5,18 +5,12 @@
   "dependencies": {
     "@material-ui/core": "^1.0.0",
     "@material-ui/icons": "^1.0.0",
-<<<<<<< HEAD
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-scripts": "1.1.1",
-    "typeface-roboto": "0.0.54"
-=======
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
-    "react-scripts": "1.1.1",
-    "redux": "^4.0.0"
->>>>>>> 71bea99c35620101c14ca1e205ebacf36898291c
+    "typeface-roboto": "0.0.54",
+    "redux": "^4.0.0",
+    "react-redux": "^5.0.7"
   },
   "scripts": {
     "start": "react-scripts start",

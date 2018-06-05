@@ -81,21 +81,13 @@ class App extends React.Component {
                   filterBy={() => this.filterList("Sony")}
                 />
             </div>
+            <input onChange={(event) => this.props.updateSearch(event)}/>
             <BatteriesList batterylist={this.state.batterylist}/>
             <Footer />
           </div>
-<<<<<<< HEAD
+
       </React.Fragment>
-=======
 
-
-
-          <input onChange={(event) => this.props.updateSearch(event)}/>
-          <BatteriesList batterylist={this.state.batterylist}/>
-
-      </div>
-
->>>>>>> 71bea99c35620101c14ca1e205ebacf36898291c
     );
   }
 }
