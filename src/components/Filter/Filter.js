@@ -11,9 +11,7 @@ class Filter extends React.Component {
 
 
     handleClickFilter = () => {
-     
         this.setState({selected: !this.state.selected});
-        console.log("State filter ======", this.props);
     }
 
 

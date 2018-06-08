@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import reducer from './redux/reducers';
+// import { BrowserRouter } from 'react-router-dom';
 
 
 import App from './components/App/App';
@@ -35,5 +36,10 @@ class Component extends React.Component{
   };
 };
 
-ReactDOM.render(<Component />, document.getElementById('app'));
+ReactDOM.render(
+  // <BrowserRouter>
+    <Component />, document.getElementById('app')
+  // </BrowserRouter>
+);
+
 registerServiceWorker();

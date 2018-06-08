@@ -8,19 +8,12 @@ import Footer from '../Footer/Footer';
 import SearchBar from '../SearchBar/SearchBar';
 import Filter from '../Filter/Filter';
 
-import data from '../../data/data.json';
 import {connect} from 'react-redux';
 import types from '../../redux/Types';
 
 
 
 class App extends React.Component {
-  constructor(props) {
-      super(props);
-      this.state = {
-        batterylist: data.batteries,
-      };
-  }
 
   componentDidMount = () => {
     console.log(this.props, 'PORPSSSSSS');
@@ -30,33 +23,12 @@ class App extends React.Component {
     this.setState({batterylist: event.target.value});
   }
 
-
-
-
-
-  filterList = () => {
-
-
-      this.state.batterylist.map(battery => {
-        if (battery.CDR > 20) {
-          // this.setState({batterylist: })
-        }
-
-      })
-
-
-
-  }
-
   filterBySize = (size) => {
-
     let filtered = this.state.batterylist.filter(battery => battery.size === size);
     this.setState({batterylist: filtered});
-
   }
 
   render() {
-    console.log(this.state.batterylist, "batttery");
     return (
       <React.Fragment>
         <CssBaseline />
@@ -81,13 +53,11 @@ class App extends React.Component {
                   filterBy={() => this.filterList("Sony")}
                 />
             </div>
-            <input onChange={(event) => this.props.updateSearch(event)}/>
-            <BatteriesList batterylist={this.state.batterylist}/>
+            <input className="test" onChange={(event) => this.props.updateSearch(event)}/>
+            <BatteriesList/>
             <Footer />
           </div>
-
       </React.Fragment>
-
     );
   }
 }
