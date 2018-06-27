@@ -15,7 +15,10 @@ class BatteriesList extends Component {
       return (
         <Grid item  xs={6} sm={4} lg={3}>
           <Paper>
-            <Battery battery={battery} />
+            <Battery 
+              battery={battery} 
+              onClick={() => this.props.selectBattery(battery)}
+            />
           </Paper>
         </Grid>
       );

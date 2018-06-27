@@ -36,7 +36,7 @@ class App extends React.Component {
             <Header />
             <header className="App-header">
               <h1 className="App-title">Welcome to React</h1>
-              <SearchBar onSearchTerm={this.handleSearch}/>
+              <SearchBar />
             </header>
             <div className="filters-wrapper">
 

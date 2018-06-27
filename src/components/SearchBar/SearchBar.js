@@ -1,38 +1,21 @@
-import React from 'react';
-import Button from '@material-ui/core/Button';
+import React, { Component } from 'react';
 
-
-
-class SearchBar extends React.Component {
-
+class SearchBar extends Component {
 
   constructor(props){
     super(props);
 
-    this.state = {
-      searchTerm: ''
-    }
+    this.state = { searchTerm: '' };
   }
-
-
-  // We use an arrow function to bind the eventhandleer this is equal to
-  // this.handleTermChange = this.handleTermChange.bind(this);
-  handleTermChange = event => {
-    this.setState({searchTerm: event.target.value});
-  }
-
-
-
-
 
   render(){
-    console.log(this.state.searchTerm, 'this should equal sony')
+    console.log(this.state.searchTerm, '== State search term ===')
     return (
       <div className="SearchBar-fields">
-        <input placeholder="Search batteries" onChange={this.handleTermChange} />
-        <Button color="primary" onClick={this.handleSearch}>
-          Let's Go
-        </Button>
+        <input
+          value={this.state.searchTerm}
+          onChange={(event) => this.setState({ searchTerm: event.target.value })}
+        />
       </div>
     )
   }

@@ -2,7 +2,11 @@ import data from '../../../data/data.json';
 import Types from '../../Types';
 
 const filterResults = (term) => {
-  return [];
+  console.log("this is the reducer")
+  return {
+    filteredItems: data.name ((battery) => battery.name === term)
+  };
+
 };
 
 export default function (state = data.batteries, action) {
@@ -12,3 +16,5 @@ export default function (state = data.batteries, action) {
     default: return state
   }
 }
+
+
