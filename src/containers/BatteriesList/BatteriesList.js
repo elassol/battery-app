@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import './BatteriesList.css';
 import selectBattery from '../../redux/actions/action_select_battery'
-import Battery from '../Battery/Battery';
+import Battery from '../../components/Battery/Battery';
 
 import {Grid, Paper } from '@material-ui/core';
 
@@ -13,7 +13,7 @@ class BatteriesList extends Component {
   renderList() {
     return this.props.batteries.map(battery => {
       return (
-        <Grid item  xs={6} sm={4} lg={3}>
+        <Grid item  xs={6} sm={4} lg={3} key={battery.name}>
           <Paper>
             <Battery 
               battery={battery} 
@@ -36,7 +36,8 @@ class BatteriesList extends Component {
 
 function mapStateToProps(state) {
   return {
-    batteries: state.batteries
+    batteries: state.batteries,
+    searchbatteries: state.batteries
   };
 }
 

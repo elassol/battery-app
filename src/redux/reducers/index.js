@@ -4,7 +4,7 @@ import batteriesReducer from './batteriesReducer'
 
 const rootReducer = combineReducers({
   batteries: batteriesReducer,
-  searchbatteries: searchReducer
+
 });
 
 export default rootReducer;

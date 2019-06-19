@@ -6,7 +6,7 @@ import './Battery.css';
 class Battery extends React.Component {
   render() {
     return (
-      <div className="wrapper-card">
+      <div className="wrapper-card" key={this.props.battery.name}>
         <div className="inner-wrapper">
           <div className="Battery-card">
 

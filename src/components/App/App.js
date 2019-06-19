@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import  BatteriesList from '../BatteriesList/BatteriesList';
+import  BatteriesList from '../../containers/BatteriesList/BatteriesList';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import SearchBar from '../SearchBar/SearchBar';
+import SearchBar from '../../containers/SearchBar/SearchBar';
 import Filter from '../Filter/Filter';
 
 import {connect} from 'react-redux';
@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   onSearchTerm = event => {
-    this.setState({batterylist: event.target.value});
+    this.setState({ batterylist: event.target.value });
   }
 
   filterBySize = (size) => {
@@ -53,7 +53,7 @@ class App extends React.Component {
                   filterBy={() => this.filterList("Sony")}
                 />
             </div>
-            <input className="test" onChange={(event) => this.props.updateSearch(event)}/>
+            
             <BatteriesList/>
             <Footer />
           </div>
