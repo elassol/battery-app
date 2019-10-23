@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+
+    "extends": ["airbnb", "plugin:prettier/recommended"],
+
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+
+    "env": {
+        "es6": true,
+        "jest": true
+    },
+
+    "plugins": "react",
+
+    "rules": {
+        "import/prefer-default-export": 0,
+        "import/no-extraneous-dependencies": false,
+        "react/jsx-filename-extension": false,
+        "react/prefer-stateless-function": false,
+        }
+}
