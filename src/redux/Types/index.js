@@ -1,6 +1,0 @@
-export default {
-  UPDATE_SEARCH: "@@UPDATE_SEARCH",
-  SEARCH_BATTERY: "@@SEARCH_BATTERY",
-  VIEW_ALL: "@@VIEW_ALL",
-}
-
